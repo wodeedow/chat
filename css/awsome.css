@@ -1,0 +1,28 @@
+*{font-family:微软雅黑;}
+
+.middle{margin:0 auto;}
+.headphoto{background-color: #EEEEEE;}
+.list-group-item img{margin-right: 10px;}
+
+#login{width:300px; margin-top: 100px;}
+#chat{margin-top: 20px;}
+#messagesDiv{padding:5px 10px 0 10px;width: 100%; border:1px solid #DDDDDD;height: 400px;overflow:scroll}
+#messageInput{margin: 10px 0 10px 0;}
+
+@media screen and (min-width: 970px) { 
+	.userslist{ display: block;} 
+	.mainpanel{ display: block;}
+} 
+
+@media screen and (max-width: 970px) { 
+	.userslist{ width: 40%; display: block;} 
+	.mainpanel{ width: 60%; display: block;}
+}
+
+@media screen and (max-width: 700px) { 
+	.userslist{ width: 100%; display: block; padding: 5px;} 
+	.mainpanel{ width: 100%; display: none; padding: 5px;}
+	#messagesDiv{ height: 200px;}
+	.container{ padding: 0;}
+	#chat{ margin-top: 5px;}
+}
