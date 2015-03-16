@@ -7,7 +7,7 @@
 	storage = window.sessionStorage,
 	isChrome = window.navigator.userAgent.indexOf("Chrome") !== -1,
 	isIE = window.attachEvent != undefined,
-	root = 'https://935440883.firebaseIO-demo.com/',
+	root = 'https://935440883.firebaseio-demo.com/',
 	$messagepanel = $('#messagepanel'),
 	$talkto = $('#talkto'),
 	$changetalk = $('#changetalk'),
