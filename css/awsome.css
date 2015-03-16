@@ -1,4 +1,4 @@
-*{font-family:微软雅黑;}
+﻿*{font-family:微软雅黑;}
 
 .middle{margin:0 auto;}
 .headphoto{background-color: #EEEEEE;}
@@ -20,8 +20,8 @@
 }
 
 @media screen and (max-width: 700px) { 
-	.userslist{ width: 100%; display: block; padding: 5px;} 
-	.mainpanel{ width: 100%; display: none; padding: 5px;}
+	.userslist{ width: 100%; display: none; padding: 5px;} 
+	.mainpanel{ width: 100%; display: block; padding: 5px;}
 	#messagesDiv{ height: 200px;}
 	.container{ padding: 0;}
 	#chat{ margin-top: 5px;}
